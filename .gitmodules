@@ -1,0 +1,4 @@
+[submodule "tn84-nrf24l01"]
+	path = tn84-nrf24l01
+	url = https://github.com/namlokos/tn84-nrf24l01.git
+	branch = master
