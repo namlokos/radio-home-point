@@ -419,7 +419,7 @@ void setup()
 
   uint8_t buf1;
 
-  nrf_read_register(CONFIG, &buf1, 1);
+  nrf_read_register(NRF_CONFIG, &buf1, 1);
   no_nrf = (buf1 & 0x80) >> 7;
 
   // ... to start from zero!
